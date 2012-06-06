@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6801F803157F69D7003F1A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6801F802157F69D7003F1A68 /* UIKit.framework */; };
+		6801F805157F69D7003F1A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6801F804157F69D7003F1A68 /* Foundation.framework */; };
+		6801F807157F69D7003F1A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6801F806157F69D7003F1A68 /* CoreGraphics.framework */; };
+		6801F80D157F69D7003F1A68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6801F80B157F69D7003F1A68 /* InfoPlist.strings */; };
+		6801F80F157F69D7003F1A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6801F80E157F69D7003F1A68 /* main.m */; };
+		6801F813157F69D7003F1A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6801F812157F69D7003F1A68 /* AppDelegate.m */; };
+		6801F816157F69D7003F1A68 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6801F814157F69D7003F1A68 /* MainStoryboard.storyboard */; };
+		6801F819157F69D7003F1A68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6801F818157F69D7003F1A68 /* ViewController.m */; };
+		6801F82A157F6E82003F1A68 /* SLNumberPickerTicks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801F828157F6E82003F1A68 /* SLNumberPickerTicks.png */; };
+		6801F82B157F6E82003F1A68 /* SLNumberPickerTicks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6801F829157F6E82003F1A68 /* SLNumberPickerTicks@2x.png */; };
+		6801F82C157F7080003F1A68 /* SLNumberPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6801F826157F6D93003F1A68 /* SLNumberPickerView.m */; };
+		6801F82D157F7092003F1A68 /* SLNumberPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6801F827157F6D93003F1A68 /* SLNumberPickerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6801F7FE157F69D7003F1A68 /* NumberPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6801F802157F69D7003F1A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6801F804157F69D7003F1A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6801F806157F69D7003F1A68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6801F80A157F69D7003F1A68 /* NumberPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberPicker-Info.plist"; sourceTree = "<group>"; };
+		6801F80C157F69D7003F1A68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6801F80E157F69D7003F1A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6801F810157F69D7003F1A68 /* NumberPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberPicker-Prefix.pch"; sourceTree = "<group>"; };
+		6801F811157F69D7003F1A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6801F812157F69D7003F1A68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6801F815157F69D7003F1A68 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6801F817157F69D7003F1A68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6801F818157F69D7003F1A68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6801F825157F6D93003F1A68 /* SLNumberPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLNumberPickerView.h; sourceTree = "<group>"; };
+		6801F826157F6D93003F1A68 /* SLNumberPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNumberPickerView.m; sourceTree = "<group>"; };
+		6801F827157F6D93003F1A68 /* SLNumberPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLNumberPickerView.xib; sourceTree = "<group>"; };
+		6801F828157F6E82003F1A68 /* SLNumberPickerTicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SLNumberPickerTicks.png; sourceTree = "<group>"; };
+		6801F829157F6E82003F1A68 /* SLNumberPickerTicks@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SLNumberPickerTicks@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6801F7FB157F69D7003F1A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6801F803157F69D7003F1A68 /* UIKit.framework in Frameworks */,
+				6801F805157F69D7003F1A68 /* Foundation.framework in Frameworks */,
+				6801F807157F69D7003F1A68 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6801F7F3157F69D6003F1A68 = {
+			isa = PBXGroup;
+			children = (
+				6801F823157F6D8B003F1A68 /* SLNumberPicker */,
+				6801F808157F69D7003F1A68 /* NumberPicker */,
+				6801F801157F69D7003F1A68 /* Frameworks */,
+				6801F7FF157F69D7003F1A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6801F7FF157F69D7003F1A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6801F7FE157F69D7003F1A68 /* NumberPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6801F801157F69D7003F1A68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6801F802157F69D7003F1A68 /* UIKit.framework */,
+				6801F804157F69D7003F1A68 /* Foundation.framework */,
+				6801F806157F69D7003F1A68 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6801F808157F69D7003F1A68 /* NumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6801F811157F69D7003F1A68 /* AppDelegate.h */,
+				6801F812157F69D7003F1A68 /* AppDelegate.m */,
+				6801F814157F69D7003F1A68 /* MainStoryboard.storyboard */,
+				6801F817157F69D7003F1A68 /* ViewController.h */,
+				6801F818157F69D7003F1A68 /* ViewController.m */,
+				6801F809157F69D7003F1A68 /* Supporting Files */,
+			);
+			path = NumberPicker;
+			sourceTree = "<group>";
+		};
+		6801F809157F69D7003F1A68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6801F80A157F69D7003F1A68 /* NumberPicker-Info.plist */,
+				6801F80B157F69D7003F1A68 /* InfoPlist.strings */,
+				6801F80E157F69D7003F1A68 /* main.m */,
+				6801F810157F69D7003F1A68 /* NumberPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6801F823157F6D8B003F1A68 /* SLNumberPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6801F828157F6E82003F1A68 /* SLNumberPickerTicks.png */,
+				6801F829157F6E82003F1A68 /* SLNumberPickerTicks@2x.png */,
+				6801F825157F6D93003F1A68 /* SLNumberPickerView.h */,
+				6801F826157F6D93003F1A68 /* SLNumberPickerView.m */,
+				6801F827157F6D93003F1A68 /* SLNumberPickerView.xib */,
+			);
+			name = SLNumberPicker;
+			path = ../SLNumberPicker;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6801F7FD157F69D7003F1A68 /* NumberPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6801F81C157F69D7003F1A68 /* Build configuration list for PBXNativeTarget "NumberPicker" */;
+			buildPhases = (
+				6801F7FA157F69D7003F1A68 /* Sources */,
+				6801F7FB157F69D7003F1A68 /* Frameworks */,
+				6801F7FC157F69D7003F1A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberPicker;
+			productName = NumberPicker;
+			productReference = 6801F7FE157F69D7003F1A68 /* NumberPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6801F7F5157F69D6003F1A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 6801F7F8157F69D6003F1A68 /* Build configuration list for PBXProject "NumberPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6801F7F3157F69D6003F1A68;
+			productRefGroup = 6801F7FF157F69D7003F1A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6801F7FD157F69D7003F1A68 /* NumberPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6801F7FC157F69D7003F1A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6801F80D157F69D7003F1A68 /* InfoPlist.strings in Resources */,
+				6801F816157F69D7003F1A68 /* MainStoryboard.storyboard in Resources */,
+				6801F82A157F6E82003F1A68 /* SLNumberPickerTicks.png in Resources */,
+				6801F82B157F6E82003F1A68 /* SLNumberPickerTicks@2x.png in Resources */,
+				6801F82D157F7092003F1A68 /* SLNumberPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6801F7FA157F69D7003F1A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6801F80F157F69D7003F1A68 /* main.m in Sources */,
+				6801F813157F69D7003F1A68 /* AppDelegate.m in Sources */,
+				6801F819157F69D7003F1A68 /* ViewController.m in Sources */,
+				6801F82C157F7080003F1A68 /* SLNumberPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6801F80B157F69D7003F1A68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6801F80C157F69D7003F1A68 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6801F814157F69D7003F1A68 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6801F815157F69D7003F1A68 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6801F81A157F69D7003F1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6801F81B157F69D7003F1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6801F81D157F69D7003F1A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberPicker/NumberPicker-Prefix.pch";
+				INFOPLIST_FILE = "NumberPicker/NumberPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6801F81E157F69D7003F1A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberPicker/NumberPicker-Prefix.pch";
+				INFOPLIST_FILE = "NumberPicker/NumberPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6801F7F8157F69D6003F1A68 /* Build configuration list for PBXProject "NumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801F81A157F69D7003F1A68 /* Debug */,
+				6801F81B157F69D7003F1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6801F81C157F69D7003F1A68 /* Build configuration list for PBXNativeTarget "NumberPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6801F81D157F69D7003F1A68 /* Debug */,
+				6801F81E157F69D7003F1A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6801F7F5157F69D6003F1A68 /* Project object */;
+}
