@@ -2,7 +2,7 @@
 
 SLNumberPickerView is a control that presents a 3-digit number picker. It's very customisable, highly themable, and very easy to use.
 
-To learn what it can be used for, and how to use it, check out the [blog post](http://blog.secretlab.com.au/2012/07/06/slnumberpickerview/ "SLNumberPickerView on Secret Lab's blog").
+To learn what it can be used for, and how to use it, check out the [blog post](http://blog.secretlab.com.au/2012/06/07/slnumberpickerview/ "SLNumberPickerView on Secret Lab's blog").
 
 Please open an issue on GitHub if you'd like to make a request.
 
